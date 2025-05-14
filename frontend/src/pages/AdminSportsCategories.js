@@ -30,7 +30,7 @@ const AdminSportsCategories = () => {
 
   const fetchCategories = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/admin/sport-categories', {
+      const res = await axios.get('https://sportbuzz.onrender.com/api/admin/sport-categories', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setCategories(res.data);
@@ -50,14 +50,14 @@ const AdminSportsCategories = () => {
     try {
       if (editingId) {
         await axios.put(
-          `http://localhost:5000/api/admin/sport-categories/${editingId}`,
+          `https://sportbuzz.onrender.com/api/admin/sport-categories/${editingId}`,
           { name: categoryName },
           { headers: { Authorization: `Bearer ${token}` } }
         );
         toast({ title: 'Category updated', status: 'success', duration: 3000, isClosable: true });
       } else {
         await axios.post(
-          'http://localhost:5000/api/admin/sport-categories',
+          'https://sportbuzz.onrender.com/api/admin/sport-categories',
           { name: categoryName },
           { headers: { Authorization: `Bearer ${token} `} }
         );
@@ -80,7 +80,7 @@ const AdminSportsCategories = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/admin/sport-categories/${id}`, {
+      await axios.delete(`https://sportbuzz.onrender.com/api/admin/sport-categories/${id}`, {
         headers: { Authorization: `Bearer ${token} `},
       });
       toast({ title: 'Category deleted', status: 'success', duration: 3000, isClosable: true });
