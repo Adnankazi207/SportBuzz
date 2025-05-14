@@ -30,6 +30,7 @@ const HomePage = () => {
       minH="100vh"
       px={4}
       py={10}
+      color='#1A1A1A'
     >
       {/* Hero Section */}
       <Stack spacing={6} textAlign="center" align="center" mb={12}>
@@ -39,7 +40,7 @@ const HomePage = () => {
         <Text fontSize="lg" color="gray.600">
           Discover and create local sports events easily
         </Text>
-        <Button colorScheme="teal" size="lg" onClick={handleClick}>
+        <Button colorScheme="teal" size="lg" onClick={handleClick} color='#1A1A1A'>
           {userInfo ? "Go to Dashboard" : "Get Started"}
         </Button>
       </Stack>

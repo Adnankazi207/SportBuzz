@@ -28,7 +28,7 @@ const DashboardPage = () => {
   console.log(userInfo.user.role)
 
   return (
-    <Box px={6} py={10} bg={bg} minH="100vh">
+    <Box px={6} py={10} bg={bg} minH="100vh" color='#1A1A1A'>
       {/* Welcome */}
       <Stack spacing={4} mb={10} textAlign="center">
         <Heading size="xl" color="teal.500">Welcome, {name}!</Heading>

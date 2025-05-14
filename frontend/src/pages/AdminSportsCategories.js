@@ -106,7 +106,7 @@ const AdminSportsCategories = () => {
   }, []);
 
   return (
-    <Box maxW="800px" mx="auto" mt={10} p={6} bg="white" rounded="xl" shadow="md">
+    <Box maxW="800px" mx="auto" mt={10} p={6} bg="white" rounded="xl" shadow="md" color='#1A1A1A'>
       <Heading mb={6} size="lg">Manage Sports Categories</Heading>
 
       <Flex mb={4} gap={4}>

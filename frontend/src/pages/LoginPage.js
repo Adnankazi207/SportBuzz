@@ -44,7 +44,7 @@ const LoginPage = () => {
 
   return (
     <Flex align="center" justify="center" minH="100vh" bg="gray.50">
-      <Box bg="white" p={8} rounded="2xl" shadow="xl" w="full" maxW="md">
+      <Box bg="white" p={8} rounded="2xl" shadow="xl" w="full" maxW="md" color='#1A1A1A'>
         <Heading size="lg" textAlign="center" mb={6}>
           Welcome Back
         </Heading>

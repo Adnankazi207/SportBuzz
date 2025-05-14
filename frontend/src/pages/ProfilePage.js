@@ -29,6 +29,7 @@ const ProfilePage = () => {
         p={8}
         rounded="lg"
         boxShadow="lg"
+        color='#1A1A1A'
       >
         <VStack spacing={4} align="start" >
           <Heading size="lg" color="teal.500">Profile</Heading>

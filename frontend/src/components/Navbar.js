@@ -44,7 +44,7 @@ const Navbar = () => {
   );
 
   return (
-    <Box bg="teal.500" px={6} color="white">
+    <Box bg="#1A1A1A" px={6} color="white">
       <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
         <IconButton
           size={"md"}
@@ -55,7 +55,7 @@ const Navbar = () => {
         />
         
         <Box fontWeight="bold" fontSize="xl" display='flex'>
-          <Image src="./SportBuzzlogo.png" alt="Dan Abramov" width='40px' />
+          <Image src="./SportsBuzz.png" alt="Dan Abramov" width='40px' />
           SportsBuzz
         </Box>
         <HStack

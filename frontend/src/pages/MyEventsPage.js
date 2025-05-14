@@ -73,7 +73,7 @@ const MyEventsPage = () => {
   };
 
   return (
-    <Box maxW="1200px" mx="auto" mt={10} px={4}>
+    <Box maxW="1200px" mx="auto" mt={10} px={4} color='#1A1A1A'>
       <Heading mb={6} textAlign="center">
         My Events
       </Heading>

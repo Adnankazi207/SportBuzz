@@ -134,7 +134,7 @@ const EditEventPage = () => {
   }
 
   return (
-    <Box maxW="600px" mx="auto" mt={10} p={6} borderWidth={1} borderRadius="lg" boxShadow="md">
+    <Box maxW="600px" mx="auto" mt={10} p={6} borderWidth={1} borderRadius="lg" boxShadow="md" color='#1A1A1A'>
       <Heading mb={6}>Edit Event</Heading>
       <VStack spacing={4}>
         <FormControl isRequired>
