@@ -42,19 +42,6 @@ app.get('/', (req, res) => {
 
 
 
-// Serve static frontend from build folder
-app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
-
-// For any route not handled by API, serve index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'frontend', 'build', 'index.html'));
-});
-
-
-
-
-
-
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
